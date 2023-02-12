@@ -105,7 +105,7 @@ html {
 
 @media (min-width: 1368px) {
   .ticket-list .card-body {
-    max-height: 680px;
+    max-height: 700px;
     overflow-y: scroll;
   }
 }
