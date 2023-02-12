@@ -1,0 +1,143 @@
+body {
+  background-color: #d7d7d7;
+  min-height: 100vh;
+}
+
+
+html {
+  height: -webkit-fill-available;
+}
+
+/* main {
+  height: 100vh;
+  max-height: 100vh;
+  overflow-x: auto;
+  overflow-y: hidden;
+} */
+
+.scrollarea {
+  overflow-y: auto;
+}
+
+
+/*
+ * Sidebar
+ */
+
+ .sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  /*z-index: 100;  Behind the navbar */
+  padding: 90px 0 0; /* Height of navbar */
+  box-shadow: inset 1px 0 0 rgba(0, 0, 0, .1);
+}
+
+@media (max-width: 767.98px) {
+  .sidebar {
+    top: 5rem;
+  }
+}
+
+/*
+ * Sidebar right
+ */
+
+ .sidebar-2 {
+  position: fixed;
+  right: 0;
+  bottom: 2rem;
+  /*z-index: 100;  Behind the navbar */
+  box-shadow: inset 1px 0 0 rgba(0, 0, 0, .1);
+}
+
+@media (max-width: 767.98px) {
+  .sidebar {
+    top: 5rem;
+  }
+}
+
+.sidebar-sticky {
+  height: calc(100vh - 90px);
+  overflow-x: hidden;
+  overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+}
+
+.h2 {
+  font-size: 2.25rem;
+}
+
+.chat-item-1 {
+  border-radius: 5px;
+  background-color: #707070;
+}
+
+.chat-item-2 {
+  border-radius: 5px;
+  background-color: #d6d6de;
+}
+
+.btn-send {
+  background-color: #dddcdf;
+}
+
+.btn-send:hover {
+  background-color: #ede7f5;
+}
+
+.chat-content {
+  max-height: 400px;
+  overflow-y: scroll;
+}
+
+@media (min-width: 1368px) {
+  .chat-content {
+    max-height: 620px;
+    overflow-y: scroll;
+  }  
+}
+
+.ticket-list .card-body {
+  max-height: 500px;
+  overflow-y: scroll;
+}
+
+@media (min-width: 1368px) {
+  .ticket-list .card-body {
+    max-height: 680px;
+    overflow-y: scroll;
+  }
+}
+
+.ticket-list{
+  background: transparent;
+  border: none;
+}
+
+.ticket-list .card-header:hover{
+  cursor: pointer;
+}
+
+.ticket-list .card-footer:hover{
+  cursor: pointer;
+}
+
+.ticket-list .badge {
+  background-color: #ffae00;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  font-size: 16px;
+  border-radius: 13px;
+}
+
+.sidebar-2 .badge {
+  position: absolute;
+  background: #ff0000;
+  top: 5px;
+  right: 30px;
+  border-radius: 13px;
+  font-size: 11px;
+  padding-right: 9px;
+  padding-left: 9px;
+}

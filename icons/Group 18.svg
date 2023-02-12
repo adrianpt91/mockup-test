@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="35" height="34.342" viewBox="0 0 35 34.342">
+    <defs>
+        <clipPath id="t5qdivj15a">
+            <path data-name="Rectangle 58" style="fill:#707070" d="M0 0h35v34.342H0z"/>
+        </clipPath>
+    </defs>
+    <g data-name="Group 18" style="clip-path:url(#t5qdivj15a)">
+        <path data-name="Path 925" d="M31.13 13.086H3.864a1.947 1.947 0 0 1-1.943-1.943A1.914 1.914 0 0 1 2.958 9.43l13.633-7.261a1.991 1.991 0 0 1 1.828 0L32.052 9.43a1.954 1.954 0 0 1 .807 2.634 2 2 0 0 1-1.729 1.021m1.811-5.368L19.308.457a3.851 3.851 0 0 0-3.639 0L2.053 7.718a3.875 3.875 0 0 0 1.827 7.294h27.25a3.873 3.873 0 0 0 1.811-7.294" style="fill:#707070"/>
+        <path data-name="Rectangle 54" transform="translate(.044 16.873)" style="fill:#707070" d="M0 0h34.906v1.926H0z"/>
+        <path data-name="Path 926" d="M63.076 36.872v15.543h-5.8V36.872h1.926v13.6h1.948v-13.6z" transform="translate(-28.076 -18.072)" style="fill:#707070"/>
+        <path data-name="Path 927" d="M5.9 36.872v15.543H.087V36.872h1.927v13.6h1.942v-13.6z" transform="translate(-.043 -18.072)" style="fill:#707070"/>
+        <path data-name="Rectangle 55" transform="translate(5.857 32.399)" style="fill:#707070" d="M0 0h8.694v1.926H0z"/>
+        <path data-name="Rectangle 56" transform="translate(16.51 32.399)" style="fill:#707070" d="M0 0h1.976v1.926H0z"/>
+        <path data-name="Rectangle 57" transform="translate(20.461 32.399)" style="fill:#707070" d="M0 0h8.743v1.926H0z"/>
+        <path data-name="Path 928" d="M34.415 13.813a2.486 2.486 0 1 1-2.486-2.486 2.484 2.484 0 0 1 2.486 2.486" transform="translate(-14.431 -5.552)" style="fill:#707070"/>
+    </g>
+</svg>
