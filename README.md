@@ -1,5 +1,5 @@
 # mockup-test
-This is a repository for academic purposes only
+This is a repository for academic purposes only.
 Mockup using bootstrap 5
 
 # Start mockup-test locally
